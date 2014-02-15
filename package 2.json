@@ -1,22 +1,24 @@
 {
-  "name": "dico",
-  "version": "0.0.1",
+  "name": "annyang",
+  "version": "1.1.0",
   "description": "A javascript library for adding voice commands to your site, using speech recognition",
   "homepage": "https://www.talater.com/annyang/",
   "main": "annyang.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhunicole/dico.git"
+    "url": "https://github.com/TalAter/annyang.git"
   },
   "keywords": [
     "annyang",
+    "annyang.js",
+    "speechrecognition",
+    "webkitspeechrecognition",
+    "voice",
+    "speech",
     "recognition"
   ],
-  "author": "Nicole Zhu <nicolez@stanford.edu> ",
-  "license": "Stanford",
-    "private": true,
-  "scripts": {
-    "start": "node app.js",
+  "author": "Tal Ater <tal@talater.com> (https://www.talater.com/)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/TalAter/annyang/issues"
   },
@@ -26,14 +28,6 @@
     "grunt-contrib-jshint": "~0.6.4",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-contrib-cssmin": "~0.6.2",
-    "grunt-contrib-imagemin": "~0.3.0",
-
-    "express": "3.x",
-    "express3-handlebars": "*",
-    "mongodb": "*",
-    "mongoose": "*"
-  },
-  "engines": {
-    "node": "0.10.x"
-  }  
+    "grunt-contrib-imagemin": "~0.3.0"
+  }
 }
