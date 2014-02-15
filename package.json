@@ -1,22 +1,23 @@
 {
   "name": "dico",
   "version": "0.0.1",
+  "author": "Nicole Zhu, Ryan Houlihan",
   "description": "A javascript library for adding voice commands to your site, using speech recognition",
   "homepage": "www.github.com",
   "main": "index.js",
+
   "repository": {
     "type": "git",
     "url": "https://github.com/zhunicole/dico.git"
   },
-  "keywords": [
-    "annyang",
-    "recognition"
-  ],
-  "author": "Nicole Zhu <nicolez@stanford.edu> ",
+
   "license": "Stanford",
-    "private": true,
+  "private": true,
+
   "scripts": {
     "start": "node app.js",
+  },
+  
   "bugs": {
     "url": "https://github.com/zhunicole/dico"
   },
@@ -27,7 +28,8 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt-contrib-cssmin": "~0.6.2",
     "grunt-contrib-imagemin": "~0.3.0",
-
+    "express": "3.x",
+    "express3-handlebars": "*"
   },
   "engines": {
     "node": "0.10.x"
