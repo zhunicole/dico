@@ -11,9 +11,6 @@
     "url": "https://github.com/zhunicole/dico.git"
   },
 
-  "license": "Stanford",
-  "private": true,
-
   "scripts": {
     "start": "node app.js",
   },
