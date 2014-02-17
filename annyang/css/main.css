@@ -10,6 +10,12 @@ body {
   display: none;
 }
 
+.shown {
+  display: block;
+}
+
+
+
 a, a:visited {
   color: #90b8de;
   text-decoration: underline;
